@@ -58,9 +58,9 @@ h5 {
 }
 
 p {
-  color: whitesmoke;
+  color: black !important;
   font-size: 16px;
-  line-height: 28px;
+  line-height: 20px;
   word-spacing: 1px;
   letter-spacing: 1px;
 }
@@ -85,6 +85,7 @@ a:focus {
 img {
   width: 100%;
   max-width: 100%;
+  height: 400px;
 }
 
 
@@ -460,6 +461,9 @@ a.icon {
   position: relative;
   overflow: hidden;
   margin: 0;
+  border: double;
+  border-width: 15px;
+border-color: gainsboro;
 } 
 
 #portfolio .portfolio-thumb .portfolio-overlay {
@@ -763,7 +767,7 @@ a.icon {
 footer {
   background: #141414;
   padding-top: 40px;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
   text-align: center;
 }
 
@@ -878,11 +882,21 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    color: black;
-    font-size: 16px;
+    color: whitesmoke;
+    font-size: 30px;
     padding: 12px 24px;
-    border: none;
+    border: double;
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
+	text-decoration: underline; !important
+}
+u {
+    color: whitesmoke;
+	background-color: darkblue;
+}
+.abc {
+
+    display: inline !important; 
+
 }
