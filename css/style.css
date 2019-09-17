@@ -58,7 +58,7 @@ h5 {
 }
 
 p {
-  color: #777;
+  color: whitesmoke;
   font-size: 16px;
   line-height: 28px;
   word-spacing: 1px;
@@ -878,16 +878,11 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    color: whitesmoke;
-    font-size: 30px;
+    color: black;
+    font-size: 16px;
     padding: 12px 24px;
-    border: double;
+    border: none;
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
-	text-decoration: underline; !important
-}
-u {
-    color: whitesmoke;
-	background-color: darkblue;
 }
